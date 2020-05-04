@@ -1,0 +1,227 @@
+/* Background Stars navbar*/
+.Background-nav {
+	width: 100%;
+	padding: 1rem 0;
+	background: url('../../imagenes/stars.svg'), #1b1b25;
+	background-repeat: repeat;
+	margin-bottom: 0rem;
+	color: #ffffff;
+	POSITION: relative;
+	top: 0px;
+	display: flex;
+}
+
+@media only screen and (min-width: 315px) {
+	.Navbar {
+		width: 100%;
+		padding: 0.5rem 0;
+		background-color: #1c3650;
+		opacity: 82%;
+	}
+	.navbar {
+		background: #E6000000;
+	}
+
+	#Buscador {
+		width: 200px;
+		border: transparent;
+		border-bottom: solid 1px #ccc;
+		padding: 10px 10px 10px 30px;
+	}
+
+	.Navbar__brand {
+		color: #ffffff;
+
+		display: flex;
+		align-items: center;
+	}
+
+	.Navbar__brand:hover {
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.Navbar__brand-logo {
+		margin-right: 0.5rem;
+		margin-left: 2.5rem;
+		width: 100px;
+		height: 100px;
+	}
+
+	.navbar-collapse {
+		justify-content: space-evenly;
+	}
+
+	.nav-link {
+		color: white !important;
+		font-size: 22px;
+		font-weight: bold;
+		font-family: 'Gayathri', sans-serif;
+	}
+
+	/* START OF SEARCH STYLE  */
+
+	.search-box {
+		position: relative;
+		top: 20px;
+		left: 77%;
+		transform: translate(-80%, -50%);
+		background: #2f3640;
+		height: 40px;
+		border-radius: 40px;
+		padding: 10px;
+		margin-bottom: 40px;
+	}
+
+	.search-box:hover > .search-txt {
+		width: 240px;
+		padding: 0 6px;
+	}
+
+	.search-box:hover > .search-btn {
+		background: white;
+		color: black;
+	}
+
+	.search-btn {
+		color: #e84118;
+		float: right;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background: #2f3640;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		color: white;
+		cursor: pointer;
+	}
+
+	.search-btn > i {
+		font-size: 30px;
+	}
+
+	.search-txt {
+		border: none;
+		background: none;
+		outline: none;
+		float: left;
+		padding: 0;
+		color: white;
+		font-size: 16px;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 0px;
+		font-weight: bold;
+	}
+
+	/*  END OF SEARCH STYLE  */
+}
+
+@media only screen and (min-width: 768px) {
+	.Navbar {
+		width: 100%;
+		padding: 0.5rem 0;
+		background-color: #1c3650;
+		opacity: 82%;
+	}
+	.navbar {
+		background: #E6000000;
+	}
+
+	#Buscador {
+		width: 200px;
+		border: transparent;
+		border-bottom: solid 1px #ccc;
+		padding: 10px 10px 10px 30px;
+	}
+
+	.Navbar__brand {
+		color: #ffffff;
+
+		display: flex;
+		align-items: center;
+	}
+
+	.Navbar__brand:hover {
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.Navbar__brand-logo {
+		margin-right: 0.5rem;
+		margin-left: 2.5rem;
+		width: 100px;
+		height: 100px;
+	}
+
+	.navbar-collapse {
+		justify-content: space-evenly;
+	}
+
+	.nav-link {
+		color: white !important;
+		font-size: 22px;
+		font-weight: bold;
+		font-family: 'Gayathri', sans-serif;
+	}
+
+	/* START OF SEARCH STYLE  */
+
+	.search-box {
+		position: relative;
+		top: 20px;
+		left: 40%;
+		transform: translate(-40%, -50%);
+		background: #2f3640;
+		height: 40px;
+		border-radius: 40px;
+		padding: 10px;
+	}
+
+	.search-box:hover > .search-txt {
+		width: 240px;
+		padding: 0 6px;
+	}
+
+	.search-box:hover > .search-btn {
+		background: white;
+		color: black;
+	}
+
+	.search-btn {
+		color: #e84118;
+		float: right;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background: #2f3640;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		color: white;
+		cursor: pointer;
+	}
+
+	.search-btn > i {
+		font-size: 30px;
+	}
+
+	.search-txt {
+		border: none;
+		background: none;
+		outline: none;
+		float: left;
+		padding: 0;
+		color: white;
+		font-size: 16px;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 0px;
+		font-weight: bold;
+	}
+
+	/*  END OF SEARCH STYLE  */
+}
